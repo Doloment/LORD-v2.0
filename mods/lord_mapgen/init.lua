@@ -1,0 +1,1 @@
+dofile(minetest.get_modpath("lord_mapgen").."/mapgen.lua")
