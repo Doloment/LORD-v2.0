@@ -2401,7 +2401,7 @@ minetest.register_node("lord_blocks:lava_source", {
 		},
 	},
 	paramtype = "light",
-	light_source = lord_base.LIGHT_MAX - 1,
+	light_source = 13,
 	walkable = false,
 	pointable = false,
 	diggable = false,
@@ -2447,7 +2447,7 @@ minetest.register_node("lord_blocks:lava_flowing", {
 	},
 	paramtype = "light",
 	paramtype2 = "flowingliquid",
-	light_source = lord_base.LIGHT_MAX - 1,
+	light_source = 13,
 	walkable = false,
 	pointable = false,
 	diggable = false,
@@ -2836,7 +2836,7 @@ minetest.register_node("lord_blocks:meselamp", {
 	is_ground_content = false,
 	groups = {cracky = 3, oddly_breakable_by_hand = 3},
 	sounds = lord_base.node_sound_glass_defaults(),
-	light_source = lord_base.LIGHT_MAX,
+	light_source = 14,
 })
 
 minetest.register_node("lord_blocks:mese_post_light", {
@@ -2853,7 +2853,7 @@ minetest.register_node("lord_blocks:mese_post_light", {
 		},
 	},
 	paramtype = "light",
-	light_source = lord_base.LIGHT_MAX,
+	light_source = 14,
 	sunlight_propagates = true,
 	is_ground_content = false,
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 2},
