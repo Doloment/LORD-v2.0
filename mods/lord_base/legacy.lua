@@ -3,7 +3,7 @@
 -- Horrible stuff to support old code registering falling nodes
 -- Don't use this and never do what this does, it's completely wrong!
 -- (More specifically, the client and the C++ code doesn't get the group)
-function lord_base.register_falling_node(nodename, texture)
+--[[function lord_base.register_falling_node(nodename, texture)
 	minetest.log("error", debug.traceback())
 	minetest.log('error', "WARNING: lord_base.register_falling_node is deprecated")
 	if minetest.registered_nodes[nodename] then
@@ -47,3 +47,4 @@ function lord_base.intersects_protection(minp, maxp, player_name, interval)
 		"deprecated, use minetest.is_area_protected() instead.")
 	minetest.is_area_protected(minp, maxp, player_name, interval)
 end
+]]--
