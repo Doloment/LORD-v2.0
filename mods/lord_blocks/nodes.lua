@@ -1,5 +1,6 @@
 -- mods/lord_blocks/nodes.lua
 
+lord_base = {}
 
 --[[ Node name convention:
 
