@@ -1,7 +1,5 @@
 -- mods/lord_blocks/nodes.lua
 
-lord_base = {}
-
 --[[ Node name convention:
 
 Although many node names are in combined-word form, the required form for new

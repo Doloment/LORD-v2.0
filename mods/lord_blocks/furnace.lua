@@ -2,8 +2,6 @@
 -- Formspecs
 --
 
-lord_blocks = {}
-
 function lord_blocks.get_furnace_active_formspec(fuel_percent, item_percent)
 	return "size[8,8.5]"..
 		"list[context;src;2.75,0.5;1,1;]"..
